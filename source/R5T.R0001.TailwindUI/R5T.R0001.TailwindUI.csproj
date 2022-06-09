@@ -1,20 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk.Razor">
-
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>1591;1573</NoWarn>
   </PropertyGroup>
-
   <ItemGroup>
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\..\..\R5T.L0009\source\R5T.L0009.Extensions\R5T.L0009.Extensions.csproj" />
     <ProjectReference Include="..\..\..\R5T.L0010\source\R5T.L0010.Extensions\R5T.L0010.Extensions.csproj" />
     <ProjectReference Include="..\..\..\R5T.T0015\source\R5T.T0015\R5T.T0015.csproj" />
   </ItemGroup>
-  
-
-
 </Project>
